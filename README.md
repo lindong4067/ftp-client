@@ -1,4 +1,4 @@
-# ftp-client
+# FTP Client
 Java FTP client that can be executed directly
 
 ## Dependency
@@ -9,11 +9,11 @@ Java FTP client that can be executed directly
         <version>${commons-net.version}</version>
     </dependency>
 ```
-### Build
+## Build
 ```shell
 mvn clean install
 ```
-### Usage
+## Usage
 ```shell
 java -jar ftp-client-3.0.jar -s ftp.example.com -P 21 -u your-username -p your-password -l /path/to/local/file.zip -r /path/to/remote/file.zip -a
 # -s: ftp server address
